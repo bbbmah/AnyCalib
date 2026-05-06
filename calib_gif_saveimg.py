@@ -1,3 +1,4 @@
+# 7 프레임 gif 파일을 순회하며 7개 프레임에 대한 radial:1 방식을 캘리브레이션, csv 파일을 저장하는 코드.
 import json
 import csv
 from pathlib import Path

@@ -1,3 +1,4 @@
+# 임의의 이미지를 캘리브레이션 한 후, 그 결과를 이용해 opencv로 왜곡을 보정한 이미지를 저장하는 코드.
 import json
 import csv
 from pathlib import Path

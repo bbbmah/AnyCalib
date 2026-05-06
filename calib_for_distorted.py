@@ -1,3 +1,4 @@
+# 7 프레임 gif에서 앞 4개의 프레임 (24~70)만을 추출하여 캘리브레이션, csv 파일로 저장하는 코드.
 import json
 import csv
 from pathlib import Path

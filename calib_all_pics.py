@@ -1,3 +1,4 @@
+# 임의의 이미지를 네 개의 카메라 모델로 캘리브레이션 하는 코드.
 import os
 import csv
 from pathlib import Path
