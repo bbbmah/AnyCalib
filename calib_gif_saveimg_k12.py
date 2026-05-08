@@ -14,10 +14,10 @@ from anycalib import AnyCalib
 dev = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 입력/출력 경로
-DATA_ROOT = Path("/home/work/Hwang/Generative_Ph/generative-photography/inference_output/genphoto_focal_length/2025.11.15")
+DATA_ROOT = Path("C:/Personal_Files/2025_Summer/Sojung/96개 프롬프트의 결과_수치,시각적 평가/raw 파일 결과들/gifs_Genphoto")
 DATA_DIRS = [DATA_ROOT]
 
-out_root = Path("./anycalib_results")
+out_root = Path("./anycalib_results_k12")
 out_root.mkdir(parents=True, exist_ok=True)
 
 # 처리 대상 파일들: GIF 목록 
