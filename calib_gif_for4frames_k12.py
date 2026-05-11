@@ -25,12 +25,10 @@ dev = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 실제 사용하시는 3개의 폴더 경로로 아래 문자열들을 수정해 주세요.
 DATA_DIRS = [
-    Path("C:/Personal_Files/2025_Summer/Sojung/96개 프롬프트의 결과_수치,시각적 평가/raw 파일 결과들/gifs_our_raw_496"),
-    Path("C:/Personal_Files/2025_Summer/Sojung/96개 프롬프트의 결과_수치,시각적 평가/raw 파일 결과들/gifs_our_jpeg_496"),
-    Path("C:/Personal_Files/2025_Summer/Sojung/96개 프롬프트의 결과_수치,시각적 평가/raw 파일 결과들/gifs_genphoto_496")
+    Path("path"),
 ]
 
-out_root = Path("./anycalib_results")
+out_root = Path("./anycalib_results_496")
 out_root.mkdir(parents=True, exist_ok=True)
 
 # 처리 대상 파일들: GIF 목록
